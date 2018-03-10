@@ -42,17 +42,19 @@ optional arguments:
 
 Examples:
 
+In the repo directory,
+
 ```bash
-./duralex --file pion1561.html
+./bin/duralex --file pion1561.html
 ```
 ```bash
-./duralex --url http://www.assemblee-nationale.fr/14/propositions/pion1561.asp
+./bin/duralex --url http://www.assemblee-nationale.fr/14/propositions/pion1561.asp
 ```
 ```bash
-curl -s http://www.assemblee-nationale.fr/14/propositions/pion1561.asp | ./duralex
+curl -s http://www.assemblee-nationale.fr/14/propositions/pion1561.asp | ./bin/duralex
 ```
 ```bash
-cat http://www.assemblee-nationale.fr/14/propositions/pion1561.asp | ./duralex
+cat http://www.assemblee-nationale.fr/14/propositions/pion1561.asp | ./bin/duralex
 ```
 
 ## Intermediary representation
